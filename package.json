@@ -4,7 +4,8 @@
   "description": "Task for Sportradar interview",
   "main": "index.js",
   "scripts": {
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "test": "node --test --test-reporter=spec"
   },
   "author": "zjerina",
   "license": "GPL-3.0",
