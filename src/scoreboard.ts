@@ -191,7 +191,7 @@ export class Scoreboard {
     if (
       typeof teamName !== "string" ||
       teamName.length > this.MAX_TEAM_NAME_LEN ||
-      !/^[a-zA-Z ]+$/.test(teamName)
+      !/^[a-zA-Z0-9 ]+$/.test(teamName)
     ) {
       throw new Error(`Team name of ${errString} is invalid`);
     }
