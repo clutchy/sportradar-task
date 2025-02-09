@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "tsc --watch",
-    "test": "node --test --test-reporter=spec"
+    "test": "node --import tsx --test --test-reporter=spec \"**/*.test.ts\""
   },
   "author": "zjerina",
   "license": "GPL-3.0",
