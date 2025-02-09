@@ -1,0 +1,5 @@
+- One assumption is that the goals cannot be disallowed after they have been added to the scoreboard
+- Maximum team name lenght is 1024 characters
+- Team name can only contain letters and spaces
+- Maximum number of goals in a single increment is not limited
+- Currently the matches are sorted when summary is requested, we could also put the match into the correct place when it is added or when its score is updated
